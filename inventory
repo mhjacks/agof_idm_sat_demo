@@ -2,6 +2,8 @@
 localhost
 
 [idm_primary]
+idm.mhjacks-avp-agoftest.example.com
+satellite.mhjacks-avp-agoftest.example.com
 
 [idm_replicas]
 
@@ -10,9 +12,15 @@ localhost
 [sat_capsule]
 
 [aap_controller]
+aap.mhjacks-avp-agoftest.example.com
 
 [automation_hub]
+hub.mhjacks-avp-agoftest.example.com
 
 [container_servers]
 
 [aws_nodes]
+aap.mhjacks-avp-agoftest.example.com
+hub.mhjacks-avp-agoftest.example.com
+idm.mhjacks-avp-agoftest.example.com
+satellite.mhjacks-avp-agoftest.example.com
